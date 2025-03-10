@@ -139,7 +139,8 @@ export default function ThoughtDisplay() {
     setIsRegenerating(true);
     
     try {
-      let englishThought, arabicThought;
+      let englishThought: string;
+      let arabicThought: string;
       
       if (apiError) {
         // If we had an API error before, use fallback thoughts
