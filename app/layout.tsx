@@ -13,7 +13,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Hikma - حكمة | Daily Islamic Wisdom',
+  title: 'Hikma - حكمة',
   description: 'Daily wisdom inspired by Islamic teachings and philosophy',
 };
 
